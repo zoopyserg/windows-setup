@@ -29,7 +29,9 @@ All the PC's have to be connected via LAN to the router (not sure how to do it v
 
 For every computer do this:
 - Open services via start search
-- Activate all services that start with an "F" ("Finding this computer in the network etc").
+- Activate these services:
+-- Function Discovery Resource Publication
+-- Function Discovery Provider Host
 - Go to Network & Sharing Center (via network menu) -> Advanced 
 - Activate Everything (in Network Sharing Center) for all kinds of networks.
 
