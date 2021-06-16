@@ -37,3 +37,14 @@ For all the folders you want to share do this:
 - Properties -> Sharing
 - Select Everyone
 - Some people say it used to be that you have to have Windows user (on a server PC) with the same username/password as a client, but in my experience it worked fine without it. Just asked for a password for the first time.
+
+## Setting up latest MS Office (unofficial)
+Turn off Windows Defender.
+
+## Setting up Bartender (industrial program for barcode printing)
+- Install latest Windows SQL Server from https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads (basic setup will do).
+- Launch Bartender Setup
+- When it's Launched, click "Show Advanced Options"
+- On Advanced Options tab disable (uncheck) "installing SQL Server automatically" (because it's pulling a buggy installer that is incompatible with Windows 10).
+- Proceed installation normally
+- When first launched, Bartender will say "Database Connection is not set up" -> hit Connect Manually and connect it to the database you just created (one of the two that will be there - either one or the other, not sure which one yet).
