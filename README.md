@@ -1,7 +1,7 @@
-# windows-setup
+# Windows Setup
 What I usually do (or install) to set up Windows
 
-How to fix Windows Update problems:
+## How to fix Windows Update problems:
 This re-downloads definitely correct updates:
 
 In Admin Powershell
@@ -20,3 +20,20 @@ sfc /scannow
 After that just keep installing your updates in Windows Update Center.
 
 Once done, install programs from Program Installers folder.
+
+## Setting up Windows 10 Local Network Sharing (my checklist).
+
+Obviously, it's not optimized for CIS Security or anything, just a memo where all the buttons are.
+
+All the PC's have to be connected via LAN to the router (not sure how to do it via Wi-Fi yet).
+
+For every computer do this:
+- Open services via start search
+- Activate all services that start with an "F" ("Finding this computer in the network etc").
+- Go to Network & Sharing Center (via network menu) -> Advanced 
+- Activate Everything (in Network Sharing Center) for all kinds of networks.
+
+For all the folders you want to share do this:
+- Properties -> Sharing
+- Select Everyone
+- Some people say it used to be that you have to have Windows user (on a server PC) with the same username/password as a client, but in my experience it worked fine without it. Just asked for a password for the first time.
