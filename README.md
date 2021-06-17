@@ -58,6 +58,13 @@ On client:
 - Select its Printer
 - That's it. Print.
 
+### For every member of the network add the Network Drive
+(so that you wouldn't have to access it through "network" menu)
+- Open Explorer
+- On the top (in the tabs) there will be a button "Map a Network Drive".
+- There you can assign a letter and pick any folder accessible to you on any computer of the network.
+
+
 ## Setting up latest MS Office (unofficial)
 Turn off Windows Defender.
 
