@@ -64,6 +64,9 @@ On client:
 - On the top (in the Computer tab) there will be a button "Map a Network Drive".
 - There you can assign a letter and pick any folder accessible to you on any computer of the network.
 
+For any more details on Network Setup read this official Microsoft guide:
+https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/set-up-your-small-business-network
+
 ## Setting up latest MS Office (unofficial)
 Turn off Windows Defender.
 
