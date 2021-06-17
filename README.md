@@ -25,7 +25,7 @@ Once done, install programs from Program Installers folder.
 
 Obviously, it's not optimized for CIS Security or anything, just a memo where all the buttons are.
 
-All the PC's have to be connected via LAN to the router (not sure how to do it via Wi-Fi yet).
+All the PC's have to be connected via LAN or Wi-Fi to the router.
 
 ### For every computer do this:
 - Open services via start search
