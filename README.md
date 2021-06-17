@@ -27,7 +27,7 @@ Obviously, it's not optimized for CIS Security or anything, just a memo where al
 
 All the PC's have to be connected via LAN to the router (not sure how to do it via Wi-Fi yet).
 
-For every computer do this:
+### For every computer do this:
 - Open services via start search
 - Activate these services:
 - - Function Discovery Resource Publication
@@ -37,10 +37,26 @@ For every computer do this:
 - Go to Settings -> Network 
 - Under the network you're setting up, click Properties, and make sure it's set to "private" (not "hidden" from other members)
 
-For all the folders you want to share do this:
+### For all the folders you want to share do this:
 - Properties -> Sharing
 - Select Everyone
 - Some people say it used to be that you have to have Windows user (on a server PC) with the same username/password as a client, but in my experience it worked fine without it. Just asked for a password for the first time.
+
+### For every Printer you want to share do this:
+On server (device physically connected to the printer):
+- Go to Printers & Scanners
+- Click on the name of the printer
+- Click Manage
+- Click Printer Properties
+- Go to Sharing tab
+- Check the "Shared Access" checkmark.
+- Apply
+On client:
+- Try to print something
+- Click "Find a printer"
+- Select the Server from the dropdown
+- Select its Printer
+- That's it. Print.
 
 ## Setting up latest MS Office (unofficial)
 Turn off Windows Defender.
