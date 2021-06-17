@@ -34,6 +34,8 @@ For every computer do this:
 - - Function Discovery Provider Host
 - Go to Network & Sharing Center (via network menu) -> Advanced 
 - Activate Everything (in Network Sharing Center) for all kinds of networks.
+- Go to Settings -> Network 
+- Under the network you're setting up, click Properties, and make sure it's set to "private" (not "hidden" from other members)
 
 For all the folders you want to share do this:
 - Properties -> Sharing
