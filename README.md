@@ -6,6 +6,8 @@ This re-downloads definitely correct updates:
 
 In Admin Powershell
 ````
+Dism /Online /Cleanup-Image /CheckHealth 
+Dism /Online /Cleanup-Image /ScanHealth
 DISM /ONLINE /CLEANUP-IMAGE /RESTOREHEALTH
 ````
 
