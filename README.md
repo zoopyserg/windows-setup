@@ -79,3 +79,7 @@ Turn off Windows Defender.
 - On Advanced Options tab disable (uncheck) "installing SQL Server automatically" (because it's pulling a buggy installer that is incompatible with Windows 10).
 - Proceed installation normally
 - When first launched, Bartender will say "Database Connection is not set up" -> hit Connect Manually and connect it to the database you just created (one of the two that will be there - either one or the other, not sure which one yet).
+
+## USER Management:
+- See all users: `net user`
+- Manage users: `netplwiz`
