@@ -1,6 +1,13 @@
 # Windows Setup
 What I usually do (or install) to set up Windows
 
+## Reset Trial Period for MS Products:
+
+````
+SLMGR -DLV
+SLMGR -REARM
+````
+
 ## How to fix Windows Update problems:
 This re-downloads definitely correct updates:
 
