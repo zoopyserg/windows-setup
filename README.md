@@ -141,6 +141,9 @@ User Rights Assignment
 Log on as a service
 Set all yousers you want and reboot.
 
+Fix "MMC Could Not Be Snapped In" in 1C:
+Пуск - папка 1С - Регистрация утилиты администрирования.
+
 1C_SQL_STARTER
 112223
 
