@@ -139,12 +139,26 @@ Security Settings
 Local Policies
 User Rights Assignment
 Log on as a service
-Set all yousers you want and reboot.
+Set all yousers you want and reboot. with same params.
 
 Fix "MMC Could Not Be Snapped In" in 1C:
 Пуск - папка 1С - Регистрация утилиты администрирования.
 https://www.youtube.com/watch?v=4qCAJItWWSU&ab_channel=%D0%9A%D0%BE%D0%BC%D0%BF%D1%84%D1%83%D1%86%D0%B8%D0%B9
 Or: 1С folder - bin - regMSC (run as admin)
+
+Setup 1C cluster:
+1C management console
+server
+clusters
+local
+infobases
+create infobase
+
+MSSQL
+Right click Server
+Properties
+Security
+Allow SQL login
 
 1C_SQL_STARTER
 112223
