@@ -124,6 +124,16 @@ ragent.exe -instsrvc -port 1540 -regport 1541 -range 1560:1591 -d "C:\Program Fi
 ✅ При правильных настройках служба агента сервера 1С запускается корректно и готова принимать входящие подключения.
 _____________________________________
 
+Give "Run Service" rights to all users that need to run 1C-related services.
+Local Group Policy Editor
+Computer Configuration
+Windows Settings
+Security Settings
+Local Policies
+User Rights Assignment
+Log on as a service
+Set all yousers you want and reboot.
+
 1C_SQL_STARTER
 112223
 
