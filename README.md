@@ -143,6 +143,8 @@ Set all yousers you want and reboot.
 
 Fix "MMC Could Not Be Snapped In" in 1C:
 Пуск - папка 1С - Регистрация утилиты администрирования.
+https://www.youtube.com/watch?v=4qCAJItWWSU&ab_channel=%D0%9A%D0%BE%D0%BC%D0%BF%D1%84%D1%83%D1%86%D0%B8%D0%B9
+Or: 1С folder - bin - regMSC (run as admin)
 
 1C_SQL_STARTER
 112223
