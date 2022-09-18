@@ -124,6 +124,13 @@ ragent.exe -instsrvc -port 1540 -regport 1541 -range 1560:1591 -d "C:\Program Fi
 ✅ При правильных настройках служба агента сервера 1С запускается корректно и готова принимать входящие подключения.
 _____________________________________
 
+Setup MSSQL Database:
+Do Evaluation Version (180 days, but at least it has an Agent, because Express does not have an agent, and has 10Gb limit). May upgrade later for $900
+Create 1C_DATA database in MSSQL
+Create Logon with SQL access rights, sysadmin, and password
+Set "automatic" in SQL server configuration.
+
+
 Give "Run Service" rights to all users that need to run 1C-related services.
 Local Group Policy Editor
 Computer Configuration
