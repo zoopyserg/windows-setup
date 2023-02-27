@@ -125,45 +125,49 @@ ragent.exe -instsrvc -port 1540 -regport 1541 -range 1560:1591 -d "C:\Program Fi
 _____________________________________
 
 Setup MSSQL Database:
-Do Evaluation Version (180 days, but at least it has an Agent, because Express does not have an agent, and has 10Gb limit). May upgrade later for $900
-Create 1C_DATA database in MSSQL
-Create Logon with SQL access rights, sysadmin, and password
-Set "automatic" in SQL server configuration.
+- Do Evaluation Version (180 days, but at least it has an Agent, because Express does not have an agent, and has 10Gb limit). 
+- May upgrade later for $900
+
+- Connect in SMMS (pick More, select new server name).
+- Create 1C_DATA database in MSSQL
+- Create Login with SQL access rights, sysadmin, and password
+- Set "automatic" in SQL server configuration.
 
 
 Give "Run Service" rights to all users that need to run 1C-related services.
-Local Group Policy Editor
-Computer Configuration
-Windows Settings
-Security Settings
-Local Policies
-User Rights Assignment
-Log on as a service
-Set all yousers you want and reboot. with same params.
+
+- Local Group Policy Editor
+- Computer Configuration
+- Windows Settings
+- Security Settings
+- Local Policies
+- User Rights Assignment
+- Log on as a service
+- Set all yousers you want and reboot. with same params.
 
 Fix "MMC Could Not Be Snapped In" in 1C:
-Пуск - папка 1С - Регистрация утилиты администрирования.
-https://www.youtube.com/watch?v=4qCAJItWWSU&ab_channel=%D0%9A%D0%BE%D0%BC%D0%BF%D1%84%D1%83%D1%86%D0%B8%D0%B9
-Or: 1С folder - bin - regMSC (run as admin)
+- Пуск - папка 1С - Регистрация утилиты администрирования.
+- https://www.youtube.com/watch?v=4qCAJItWWSU&ab_channel=%D0%9A%D0%BE%D0%BC%D0%BF%D1%84%D1%83%D1%86%D0%B8%D0%B9
+- Or: 1С folder - bin - regMSC (run as admin)
 
 Setup 1C cluster:
-1C management console
-server
-clusters
-local
-infobases
-create infobase
+- 1C management console
+- server
+- clusters
+- local
+- infobases
+- create infobase
 
 MSSQL
-Right click Server
-Properties
-Security
-Allow SQL login
+- Right click Server
+- Properties
+- Security
+- Allow SQL login
 
-1C_SQL_STARTER
-112223
+- 1C_SQL_STARTER
+- 112223
 
 Set Administrator access to MSSQL: 
-https://itproguru.com/expert/2014/09/how-to-fix-login-failed-for-user-microsoft-sql-server-error-18456-step-by-step-add-sql-administrator-to-sql-management-studio/
+- https://itproguru.com/expert/2014/09/how-to-fix-login-failed-for-user-microsoft-sql-server-error-18456-step-by-step-add-sql-administrator-to-sql-management-studio/
 
-Debug MSSQL Log and Event Log often, they contain exact errors ("login action missing" etc).
+- Debug MSSQL Log and Event Log often, they contain exact errors ("login action missing" etc).
