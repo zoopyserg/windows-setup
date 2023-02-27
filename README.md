@@ -136,7 +136,7 @@ Setup MSSQL Database:
 
 Give "Run Service" rights to all users that need to run 1C-related services.
 
-- Local Group Policy Editor
+- Local Group Policy Editor (run gpedit.msc)
 - Computer Configuration
 - Windows Settings
 - Security Settings
